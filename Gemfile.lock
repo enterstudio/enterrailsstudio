@@ -41,15 +41,16 @@ GEM
     addressable (2.5.0)
       public_suffix (~> 2.0, >= 2.0.2)
     arel (7.1.4)
-    autoprefixer-rails (6.6.1)
+    autoprefixer-rails (9.5.1)
       execjs
     better_errors (2.1.1)
       coderay (>= 1.0.0)
       erubis (>= 2.6.6)
       rack (>= 0.9.0)
-    bootstrap (4.0.0.alpha6)
+    bootstrap (4.1.2)
       autoprefixer-rails (>= 6.0.3)
-      sass (>= 3.4.19)
+      popper_js (>= 1.12.9, < 2)
+      sass (>= 3.5.2)
     builder (3.2.3)
     byebug (9.0.6)
     capistrano (3.0.1)
@@ -164,6 +165,7 @@ GEM
     passenger (5.1.1)
       rack
       rake (>= 0.8.1)
+    popper_js (1.14.5)
     pry (0.10.4)
       coderay (~> 1.1.0)
       method_source (~> 0.8.1)
@@ -228,7 +230,11 @@ GEM
       rspec-support (~> 3.5.0)
     rspec-support (3.5.0)
     rubyzip (1.2.0)
-    sass (3.4.23)
+    sass (3.7.4)
+      sass-listen (~> 4.0.0)
+    sass-listen (4.0.0)
+      rb-fsevent (~> 0.9, >= 0.9.4)
+      rb-inotify (~> 0.9, >= 0.9.7)
     sass-rails (5.0.6)
       railties (>= 4.0.0, < 6)
       sass (~> 3.1)
@@ -288,7 +294,7 @@ PLATFORMS
 
 DEPENDENCIES
   better_errors
-  bootstrap (~> 4.0.0.alpha3.1)
+  bootstrap (~> 4.1.2.0.0)
   byebug
   capistrano (~> 3.0.1)
   capistrano-bundler
@@ -335,4 +341,4 @@ RUBY VERSION
    ruby 2.4.0p0
 
 BUNDLED WITH
-   1.13.7
+   1.17.3
