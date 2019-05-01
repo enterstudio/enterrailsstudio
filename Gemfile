@@ -55,7 +55,7 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'bootstrap', '~> 4.0.0.alpha3.1'
 gem 'high_voltage'
 gem 'mysql2', '~> 0.3.18'
-gem 'passenger'
+gem 'passenger', '>= 5.3.2'
 gem 'therubyracer', :platform=>:ruby
 
 group :development do
